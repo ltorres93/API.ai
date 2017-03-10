@@ -1,3 +1,5 @@
+//NPL for Torres Airlines Chatbot. It's needed to set the enviromental variable for API.AI
+
 var URL = require('url');
 var API_AI = require('apiai');
 var app = API_AI(process.env.API_AI_KEY);
